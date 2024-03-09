@@ -1,0 +1,24 @@
+h1{
+    background: #EC610A;
+    /* Margenes en cada sector 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px; */
+
+    /* Margen general */
+    /* margin: 100px; */
+    
+    /* Arriba-Abajo y Izquierda-Derecha */
+    /* margin: 200px 100px; */
+
+    /* Margen Total */
+    margin: 100px 10px 20px 500px;
+
+}
+
+/* El Padding es un margen interior */
+
+p{
+    background: #A40A3C;
+    padding: 100px;
+}
