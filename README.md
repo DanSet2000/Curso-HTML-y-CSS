@@ -1,5 +1,5 @@
 # Curso-HTML-y-CSS
-Curso de Desarrollo Web 
+Curso de Desarrollo Web en FrontEnd 
 
 Tecnologías estudiadas:
 - HTML
