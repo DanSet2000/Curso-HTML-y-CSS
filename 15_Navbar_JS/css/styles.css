@@ -1,0 +1,44 @@
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #FFF;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: rosybrown;
+}
+
+nav{
+    background: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background: salmon;
+    color: #FFF;
+    padding: 10px 0px;
+    border: 2px solid white;
+    display: none;
+}
+
+/* Estilos desde los 0 a los 600px */
+
+@media (max-width: 600px){
+    nav{
+        background: gray;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
