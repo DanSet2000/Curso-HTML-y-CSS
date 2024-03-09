@@ -1,0 +1,16 @@
+H2{
+    color: green;
+    font-size: 25px;
+}
+
+/* Para elementos con id se utiliza el # */
+#subtitulo{
+    color: purple;
+    font-size: 20px;
+}
+
+/* Para elementos con clases se utiliza el . */
+.azul{
+    color: blue;
+    background: gray;
+}
