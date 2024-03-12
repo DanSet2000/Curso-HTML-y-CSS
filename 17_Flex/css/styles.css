@@ -1,0 +1,34 @@
+.contenedor{
+    width: 80%;
+    /*height: 500px;*/
+    background: #FF5C29;
+    margin: 50px auto;
+    display: flex;
+    /* Direccion de los elementos del contenedor */
+    flex-direction: row;
+    /* Respeta tamaños de los hijos del contenedor */
+    flex-wrap: wrap;
+    /* Ubicacion del contenido de manera horizontal */
+    justify-content: center;
+    /* Permite posicionar los elementos hijos de manera vertical */
+    align-items: center;
+    /* Funciona cuando hay mas elementos dentro del contenedor padre */
+    align-content: center;
+}
+
+.hijo{
+    background: #00B285;
+    width: 200px;
+    height: 100px;
+    color: #FFF;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /* Acomodar elementos hijo, no se necesitan calculos se posiciona al 100% */
+    /* flex-grow: 1; */
+    /* Restringir el ancho minimo */
+    /* flex-shrink: 0; */
+    /* Flex para manejar tanto el grow - shrink */
+    flex: 1 1 auto;
+}
