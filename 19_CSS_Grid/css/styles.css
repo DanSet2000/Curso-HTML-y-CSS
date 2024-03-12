@@ -1,0 +1,34 @@
+.grid-container{
+    display: grid;
+    /* Tamaños fijos y variables, los variables son el porcentaje y las fracciones (fr) */
+    /* La funcion repeat() genera una cantidad de elementos */
+    grid-template-columns: repeat(3, 1fr);
+    /* La funcion grid-auto genera el mismo tamaño para todas las filas o columnas que se generen */
+    /* min max sirve para especificar un minimo y un maximo */
+    grid-auto-rows: repeat(6, 1fr);
+    /* El gap especifica la separacion entre columnas y filas */
+    gap: 10px 20px;
+    /* Grid auto flow intenta llenar los agujeros vacios al usar dense */
+    grid-auto-flow: dense;
+
+}
+
+.grid-item{
+    background: tomato;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Elegir un elemento hijo */
+
+.grid-item:nth-child(3){
+    background-color: blueviolet;
+    color: white;
+    
+    /* Permite posicionar cada elemento del Grid en donde el usuario desea */
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+}
