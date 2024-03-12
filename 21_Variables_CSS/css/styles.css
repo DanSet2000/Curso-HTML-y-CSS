@@ -1,0 +1,24 @@
+/* Estilos de CSS */
+
+/* Para declarar variables
+   --nombre_variable: valor */
+
+/* Aqui se almacenan todas las variables globales */
+:root{
+    --variable-color: peru;
+    --variable-rosa: pink;
+    --grande: 50px;
+}
+
+h1{
+    color: var(--variable-color);
+    font-size: var(--grande);
+}
+
+h2{
+    color: var(--variable-color);
+}
+
+h3{
+    color: var(--variable-rosa);
+}
